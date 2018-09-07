@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+}
+
+.message {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+    text-align: left;
+    font-size: 15px;
+    background-color: rgba(255, 91, 46, 1);
+    border: none;
+    border-radius: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 11px;
+    padding-right: 11px;
+    word-break: break-all;
+}
+
+.wrapper:not(:last-child) {
+    margin-bottom: 7px;
+}
+
+.message_out {
+    background-color: rgba(255, 255, 255, 1);
+    color: black;
+    margin-left: auto;
+}
