@@ -1,130 +1,135 @@
 .container {
-  padding-left: 20px;
-  padding-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
 }
 
 .icon {
-  background: url('./images/logo.svg');
-  width: 112px;
-  height: 21px;
-  background-size: contain;
+    background: url('./images/logo.svg');
+    width: 112px;
+    height: 21px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .loader {
-  margin-top: 20px;
-  background: url('./images/loader.svg');
-  width: 150px;
-  height: 150px;
-  background-size: contain;
+    margin-top: 20px;
+    background: url('./images/loader.svg');
+    width: 150px;
+    height: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .onlineText {
-  font-family: 'Roboto Bold', 'Roboto Regular', 'Roboto';
-  font-weight: 700;
-  font-style: normal;
-  font-size: 15px;
-  color: #FFFFFF;
-  text-align: center;
-  margin-top: 31px;
+    font-family: 'Roboto Bold', 'Roboto Regular', 'Roboto';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 31px;
 }
 
 .personText {
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-style: normal;
-  font-size: 13px;
-  color: #FFFFFF;
-  text-align: center;
-  margin-top: 11px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 11px;
 }
 
 .cancelBtn {
-  border-width: 0px;
-  background: inherit;
-  background-color: rgba(255, 255, 255, 1);
-  border: none;
-  border-radius: 22px;
-  -moz-box-shadow: none;
-  -webkit-box-shadow: none;
-  box-shadow: none;
-  font-family: 'Roboto';
-  font-weight: 400;
-  font-style: normal;
-  font-size: 13px;
-  padding-top: 11px;
-  padding-bottom: 11px;
-  padding-right: 16px;
-  padding-left: 16px;
-  margin-top: 25px;
-  cursor: pointer;
-  outline: none;
+    border-width: 0px;
+    background: inherit;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 22px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 13px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-top: 25px;
+    cursor: pointer;
+    outline: none;
 }
 
 .icon_big {
-  background: url('./images/bigLogo.svg');
-  width: 166px;
-  height: 90px;
-  background-size: contain;
+    background: url('./images/bigLogo.svg');
+    width: 182px;
+    height: 120px;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .title {
-  font-family: 'Comfortaa Bold', 'Comfortaa Regular', 'Comfortaa';
-  font-weight: 700;
-  font-style: normal;
-  font-size: 15px;
-  color: #FFFFFF;
-  text-align: center;
-  margin-top: 8px;
+    font-family: 'Comfortaa Bold', 'Comfortaa Regular', 'Comfortaa';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 15px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 8px;
 }
 
 .sexTitle {
-  font-family: 'Comfortaa Bold', 'Comfortaa Regular', 'Comfortaa';
-  font-weight: 700;
-  font-style: normal;
-  font-size: 18px;
-  color: #FFFFFF;
-  text-align: center;
-  margin-top: 40px;
+    font-family: 'Comfortaa Bold', 'Comfortaa Regular', 'Comfortaa';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 40px;
 }
 
 .btn {
-  margin-top: 16px;
-  background-color: rgba(255, 255, 255, 1);
-  border: none;
-  border-radius: 70px;
-  font-family: 'Comfortaa Bold', 'Comfortaa Regular', 'Comfortaa';
-  font-weight: 700;
-  font-style: normal;
-  font-size: 18px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-right: 62px;
-  padding-left: 62px;
-  cursor: pointer;
-  outline: none;
+    margin-top: 16px;
+    background-color: rgba(255, 255, 255, 1);
+    border: none;
+    border-radius: 70px;
+    font-family: 'Comfortaa Bold', 'Comfortaa Regular', 'Comfortaa';
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 62px;
+    padding-left: 62px;
+    cursor: pointer;
+    outline: none;
+    color: #333333;
 }
 
 .btn_man {
-  position: absolute;
-  background: url('./images/man_avatar.svg');
-  width: 40px;
-  height: 34px;
-  background-size: contain;
-  margin-left: -54px;
-  margin-top: -9px;
+    position: absolute;
+    background: url('images/man_avatar.png');
+    width: 40px;
+    height: 35px;
+    background-size: contain;
+    margin-left: -54px;
+    margin-top: -9px;
+    background-repeat: no-repeat;
 }
 
 .btn_woman {
-  position: absolute;
-  background: url('./images/woman_avatar.svg');
-  width: 40px;
-  height: 34px;
-  background-size: contain;
-  margin-left: -54px;
-  margin-top: -9px;
+    position: absolute;
+    background: url('images/woman_avatar.png');
+    width: 40px;
+    height: 35px;
+    background-size: contain;
+    margin-left: -54px;
+    margin-top: -9px;
 }

@@ -54,11 +54,8 @@ class MainFilterContent extends Component {
                     <div className={style.container}>
                         <div className={style.icon_big}>
                         </div>
-                        <div className={style.title}>
-                            анонимный чат
-                            </div>
                         <div className={style.sexTitle}>
-                            Кто ты?
+                            Выбери свой пол
                             </div>
                         <div className={`${style.btn} `} onClick={()=>{this.onPost(0)}}>
                             <div className={style.btn_man}>
